@@ -1,0 +1,23 @@
+{
+    "experiment_name": "hypernet-gmm",
+    "batchsize": 1024,
+    "max_epochs": 200,
+    "num_train": 30000,
+    "num_val": 4096,
+    "save_freq": 200,
+    "lr": 0.1,
+    "lr_final": 0.005,
+    "input_size": 1,
+    "num_components": 2,
+    "mix_weights": "0.8,0.2",
+    "mix_means": "0.0,2.0",
+    "mix_vars": "1.0,1.0",
+    "gpu_id": 0,
+    "seed": 12,
+    "phase": "train",
+    "hidden_size": "8,8,8",
+    "use_outer_net": 1,
+    "ple_weight": 0.1,
+    "upload_results": 0,
+    "testing_epoch": -1
+}

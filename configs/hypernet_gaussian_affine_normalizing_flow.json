@@ -1,0 +1,17 @@
+{
+    "experiment_name": "gaussian",
+    "batchsize": 2048,
+    "max_epochs": 20,
+    "lr": 0.0005,
+    "data_dim": 12,
+    "hidden_size": "64,128,256",
+    "num_train": 65536,
+    "num_val": 4096,
+    "phase": "train",
+    "testing_epoch": -1,
+    "save_freq": 50,
+    "use_outer_net": 0,
+    "ple_weight": 0.0,
+    "gpu_id": -1,
+    "seed": 0
+}
