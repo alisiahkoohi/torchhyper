@@ -14,7 +14,7 @@ version in `setup.cfg` to the one installed on your system.**
 
 ```bash
 # Create a new conda environment.
-conda create --name torchhyper python
+conda create --name torchhyper "python<=3.12"
 conda activate torchhyper
 
 # Clone the repository and install the package in editable mode.
